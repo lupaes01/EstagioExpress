@@ -1,0 +1,14 @@
+streamlit
+pandas
+
+string
+random
+smtplib
+email.message
+dotenv 
+load_dotenv
+os
+plotly.graph_objects
+open_workbook as open_xlsb
+matplotlib.pyplot
+WordCloud, STOPWORDS, ImageColorGenerator
