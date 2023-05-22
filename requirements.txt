@@ -1,6 +1,5 @@
 streamlit
 pandas
-
 string
 random
 smtplib
@@ -9,6 +8,7 @@ dotenv
 load_dotenv
 os
 plotly.graph_objects
-open_workbook as open_xlsb
+open_workbook
 matplotlib.pyplot
-WordCloud, STOPWORDS, ImageColorGenerator
+WordCloud
+STOPWORDS
