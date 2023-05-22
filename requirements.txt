@@ -3,4 +3,6 @@ pandas
 load_dotenv
 beautifulsoup4
 matplotlib
-
+plotly
+altair
+numpy
