@@ -5,5 +5,4 @@ beautifulsoup4
 matplotlib
 plotly
 plotly.graph_objects
-altair
-numpy
+
