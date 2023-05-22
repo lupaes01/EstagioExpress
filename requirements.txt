@@ -3,3 +3,4 @@ pandas
 load_dotenv
 beautifulsoup4
 matplotlib
+plotly.graph_objects
