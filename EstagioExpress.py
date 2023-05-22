@@ -233,7 +233,7 @@ def main():
             result = login_userestag(usernameestag,check_hashes(passwordestag,hashed_pswd))
             if result:
                 st.success("Bem vindo, {}".format(usernameestag))
-                task = st.selectbox("Selecione o que deseja",["Vagas de Estágio","Teste de Personalidade e Cognitivo","Dicas de Entrevista e Vídeos Preparatórios","Como montar o seu currículo da melhor forma","Treinamentos e Atividades para te ajudar","Excluir conta"])
+                task = st.selectbox("Selecione o que deseja",["Vagas de Estágio","Teste de Personalidade e Cognitivo","Dicas de Entrevista e Vídeos Preparatórios","Como montar o seu currículo da melhor forma","Excluir conta"])
                 if task == "Vagas de Estágio":
                     st.write("Encontre aqui o Estágio ideal para voce!")
                     # Converter dados binários em formato legível por humanos
@@ -421,9 +421,7 @@ def main():
                         st.image(imagem)
                     with col3:
                         st.write("")
-                if task == "Treinamentos e Atividades para te ajudar":
-                    st.subheader("Segue abaixo a lista")
-
+            
                 if task == "Excluir conta":
                     st.write("Se você tem certeza que deseja excluir a conta, basta clicar no botão abaixo")
                     if st.checkbox("excluir"):
