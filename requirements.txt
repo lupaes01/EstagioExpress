@@ -1,14 +1,5 @@
 streamlit
 pandas
-string
-random
-smtplib
-email.message
-dotenv 
-load_dotenv
-os
-plotly.graph_objects
-open_workbook
-matplotlib.pyplot
+pyxlsb
 WordCloud
 STOPWORDS
