@@ -399,7 +399,7 @@ def main():
                     video_bytes = video_file.read()
                     st.video(video_bytes)
                     st.markdown('<p class="font">Mais sugestões do que NÃO fazer na Entrevista</p>', unsafe_allow_html=True)
-                    video_file = open('videooquenaofazer.mp4', 'rb')
+                    video_file = open('videonaofazer.mp4', 'rb')
                     video_bytes = video_file.read()
                     st.video(video_bytes)
                 if task == "Como montar o seu currículo da melhor forma":
