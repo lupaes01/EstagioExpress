@@ -3,3 +3,4 @@ pandas
 pyxlsb
 WordCloud
 STOPWORDS
+load_dotenv
