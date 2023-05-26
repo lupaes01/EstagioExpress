@@ -4,4 +4,4 @@ pyxlsb
 WordCloud
 STOPWORDS
 load_dotenv
-plotly.graph_objects
+plotly
